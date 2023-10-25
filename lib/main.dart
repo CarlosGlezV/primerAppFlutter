@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:english_words/english_words.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,6 +21,10 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(),
     );
   }
+}
+
+class MyAppState extends ChangeNotifier {
+  var current = WordPair.random();
 }
 
 class MyHomePage extends StatefulWidget {
