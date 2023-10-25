@@ -1,6 +1,7 @@
 # primerappflutter
 
-A new Flutter project.
+Codigo de la primera app para Flutter
+Carlos González Varela
 
 ## Getting Started
 
